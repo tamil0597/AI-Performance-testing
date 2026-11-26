@@ -1,4 +1,6 @@
-# OrangeHRM Playwright performance smoke framework
+# AI-Performance-testing
+
+## OrangeHRM Playwright performance smoke framework
 
 This TypeScript project runs parallel Playwright browser journeys against the public OrangeHRM demo. It uses Page Objects and shared fixtures for login, dashboard, and PIM interactions. Each test checks the requested functional outcome and measures its user-visible step against a configurable performance budget. Browser navigation timings and measured step durations are attached to the Playwright HTML report.
 
