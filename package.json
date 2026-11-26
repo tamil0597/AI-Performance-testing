@@ -1,0 +1,22 @@
+{
+  "name": "orangehrm-playwright-performance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright performance-smoke tests for the public OrangeHRM demo",
+  "scripts": {
+    "test": "playwright test",
+    "test:performance": "playwright test",
+    "report": "playwright show-report",
+    "test:allure": "playwright test",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.57.0",
+    "@types/node": "^22.15.0",
+    "allure-commandline": "^2.46.2",
+    "allure-playwright": "3.11.0",
+    "typescript": "^5.8.3"
+  }
+}
