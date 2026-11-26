@@ -11,6 +11,6 @@ if (!Number.isFinite(environment.performanceBudgetMs) || environment.performance
 export function getCredentials(): { username: string; password: string } {
   return {
     username: process.env.ORANGEHRM_USERNAME ?? 'Admin',
-    password: process.env.ORANGEHRM_PASSWORD ?? 'admin123',
+    password: process.env.ORANGEHRM_PASSWORD ?? 'admin123', 
   };
 }
